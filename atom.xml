@@ -1,45 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Material Design 中文版</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2017-05-08T03:25:59.979Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://tellxp.github.io/material-design-zh/"/>
+  <updated>2017-05-08T04:13:43.820Z</updated>
+  <id>http://tellxp.github.io/material-design-zh/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>tellxp</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/wiki/hello-world/"/>
-    <id>http://yoursite.com/wiki/hello-world/</id>
-    <published>2017-05-07T16:32:07.629Z</published>
-    <updated>2017-05-08T03:25:59.979Z</updated>
+    <title>What’s new</title>
+    <link href="http://tellxp.github.io/material-design-zh/wiki/Material%20Design/What%E2%80%99s%20new/"/>
+    <id>http://tellxp.github.io/material-design-zh/wiki/Material Design/What’s new/</id>
+    <published>2017-05-08T04:12:37.859Z</published>
+    <updated>2017-05-08T04:13:43.820Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>
+    <content type="html"><![CDATA[<p>Introduction<br>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.<br>Contents</p>
+<pre><code>Goals
+Principles
+</code></pre><p>Goals</p>
+<p>Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.</p>
+<p>Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.<br>Principles<br>Material is the metaphor</p>
+<p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p>
+<p>Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supersede those in the physical world, without breaking the rules of physics.</p>
+<p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.<br>Bold, graphic, intentional</p>
+<p>The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.</p>
+<p>An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.<br>Motion provides meaning</p>
+<p>Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</p>
+<p>All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.</p>
+<p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</p>
+<p>All content and code on this site are licensed under the Apache 2 license unless otherwise specified, the full text of which can be found at <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.apache.org/licenses/LICENSE-2.0.html</a>.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
+      &lt;p&gt;Introduction&lt;br&gt;We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design 
     
     </summary>
     
-      <category term="关于" scheme="http://yoursite.com/categories/%E5%85%B3%E4%BA%8E/"/>
+      <category term="Material Design" scheme="http://tellxp.github.io/material-design-zh/categories/Material-Design/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Elevation &amp; shadows</title>
+    <link href="http://tellxp.github.io/material-design-zh/wiki/Material%20Design/Elevation%20&amp;%20shadows/"/>
+    <id>http://tellxp.github.io/material-design-zh/wiki/Material Design/Elevation &amp; shadows/</id>
+    <published>2017-05-08T04:10:54.439Z</published>
+    <updated>2017-05-08T04:13:00.734Z</updated>
+    
+    <content type="html"><![CDATA[<p>Introduction<br>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.<br>Contents</p>
+<pre><code>Goals
+Principles
+</code></pre><p>Goals</p>
+<p>Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.</p>
+<p>Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.<br>Principles<br>Material is the metaphor</p>
+<p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p>
+<p>Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supersede those in the physical world, without breaking the rules of physics.</p>
+<p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.<br>Bold, graphic, intentional</p>
+<p>The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.</p>
+<p>An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.<br>Motion provides meaning</p>
+<p>Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</p>
+<p>All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.</p>
+<p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</p>
+<p>All content and code on this site are licensed under the Apache 2 license unless otherwise specified, the full text of which can be found at <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.apache.org/licenses/LICENSE-2.0.html</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Introduction&lt;br&gt;We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design 
+    
+    </summary>
+    
+      <category term="Material Design" scheme="http://tellxp.github.io/material-design-zh/categories/Material-Design/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Material properties</title>
+    <link href="http://tellxp.github.io/material-design-zh/wiki/Material%20Design/Material%20properties/"/>
+    <id>http://tellxp.github.io/material-design-zh/wiki/Material Design/Material properties/</id>
+    <published>2017-05-08T04:10:54.437Z</published>
+    <updated>2017-05-08T04:14:39.912Z</updated>
+    
+    <content type="html"><![CDATA[<p>Introduction<br>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.<br>Contents</p>
+<pre><code>Goals
+Principles
+</code></pre><p>Goals</p>
+<p>Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.</p>
+<p>Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.<br>Principles<br>Material is the metaphor</p>
+<p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p>
+<p>Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supersede those in the physical world, without breaking the rules of physics.</p>
+<p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.<br>Bold, graphic, intentional</p>
+<p>The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.</p>
+<p>An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.<br>Motion provides meaning</p>
+<p>Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</p>
+<p>All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.</p>
+<p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</p>
+<p>All content and code on this site are licensed under the Apache 2 license unless otherwise specified, the full text of which can be found at <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.apache.org/licenses/LICENSE-2.0.html</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Introduction&lt;br&gt;We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design 
+    
+    </summary>
+    
+      <category term="Material Design" scheme="http://tellxp.github.io/material-design-zh/categories/Material-Design/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Enviroment</title>
+    <link href="http://tellxp.github.io/material-design-zh/wiki/Material%20Design/Enviroment/"/>
+    <id>http://tellxp.github.io/material-design-zh/wiki/Material Design/Enviroment/</id>
+    <published>2017-05-08T04:10:46.051Z</published>
+    <updated>2017-05-08T04:13:48.030Z</updated>
+    
+    <content type="html"><![CDATA[<p>Introduction<br>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.<br>Contents</p>
+<pre><code>Goals
+Principles
+</code></pre><p>Goals</p>
+<p>Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.</p>
+<p>Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.<br>Principles<br>Material is the metaphor</p>
+<p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p>
+<p>Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supersede those in the physical world, without breaking the rules of physics.</p>
+<p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.<br>Bold, graphic, intentional</p>
+<p>The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.</p>
+<p>An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.<br>Motion provides meaning</p>
+<p>Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</p>
+<p>All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.</p>
+<p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</p>
+<p>All content and code on this site are licensed under the Apache 2 license unless otherwise specified, the full text of which can be found at <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.apache.org/licenses/LICENSE-2.0.html</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Introduction&lt;br&gt;We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design 
+    
+    </summary>
+    
+      <category term="Material Design" scheme="http://tellxp.github.io/material-design-zh/categories/Material-Design/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Introduction</title>
+    <link href="http://tellxp.github.io/material-design-zh/wiki/Material%20Design/Introduction/"/>
+    <id>http://tellxp.github.io/material-design-zh/wiki/Material Design/Introduction/</id>
+    <published>2017-05-07T16:32:07.629Z</published>
+    <updated>2017-05-08T04:13:11.364Z</updated>
+    
+    <content type="html"><![CDATA[<p>Introduction<br>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.<br>Contents</p>
+<pre><code>Goals
+Principles
+</code></pre><p>Goals</p>
+<p>Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.</p>
+<p>Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.<br>Principles<br>Material is the metaphor</p>
+<p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p>
+<p>Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supersede those in the physical world, without breaking the rules of physics.</p>
+<p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.<br>Bold, graphic, intentional</p>
+<p>The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.</p>
+<p>An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.<br>Motion provides meaning</p>
+<p>Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</p>
+<p>All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.</p>
+<p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</p>
+<p>All content and code on this site are licensed under the Apache 2 license unless otherwise specified, the full text of which can be found at <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.apache.org/licenses/LICENSE-2.0.html</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Introduction&lt;br&gt;We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design 
+    
+    </summary>
+    
+      <category term="Material Design" scheme="http://tellxp.github.io/material-design-zh/categories/Material-Design/"/>
     
     
   </entry>
